@@ -14,7 +14,20 @@
             font-family: cursive;
             font-size: 50px;
             text-shadow: 2px 2px 5px;
+            animation: myAnim 5s ease 0s 1 normal forwards;
+            ;
+        }
 
+        @keyframes myAnim {
+            0% {
+                opacity: 0;
+                transform: translateY(-250px) rotate(-200deg);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0) rotate(0deg);
+            }
         }
 
         p {
@@ -27,12 +40,14 @@
             padding: right;
             text-decoration: wavy;
             background-image: url(fruit.jpg);
-            
-        }
-        body{
-            background-image: url(fruits\ 2.webp);
+
         }
 
+        body {
+            background-image: url(fruits\ 2.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     </style>
 </head>
 
@@ -46,7 +61,11 @@
         different fruits, one gets to know about the uses of different fruits. This would help in learning the various
         benefits of the different exotic fruits available worldwide & not just the regular fruits we see in the country
         we live in.</p>
-        <p>Fruit, the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Thus, apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically fruits. Popularly, however, the term is restricted to the ripened ovaries that are sweet and either succulent or pulpy. For treatment of the cultivation of fruits, see fruit farming. For treatment of the nutrient composition and processing of fruits, see fruit processing.</p>
+    <p>Fruit, the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Thus, apricots,
+        bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and
+        almonds, are all technically fruits. Popularly, however, the term is restricted to the ripened ovaries that are
+        sweet and either succulent or pulpy. For treatment of the cultivation of fruits, see fruit farming. For
+        treatment of the nutrient composition and processing of fruits, see fruit processing.</p>
 </body>
 
 </html>
